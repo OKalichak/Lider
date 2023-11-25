@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="ua">
 <head>
-            <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>leader</title>
-    <form><input type="button" value="ну давай натисни на мене" 
-        onClick="var str=prompt('текст писати тут '); alert('навіщо ти написав : '+str)">
-        </form>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leader</title>
 </head>
 <body>
-    <h1>текст який я сюда написав</h1>
-   
-    <script language="JavaScript">
-        document.write("нічого в мене не працює")
-        </script>
+    <div class="image-container">
+        <a href="https://github.com/OKalichak/Lider">
+            <img width="800" height="600" src="./img/ld.png">
+        </a>
+    </div>
+
+    <form>
+        <input type="button" value="ну давай натисни на мене" onClick="var str=prompt('текст писати тут '); alert('навіщо ти написав : '+str)">
+    </form>
     
-        
+    <h1>Веб-сторінка</h1>
+    <p id="demo">¯\_(ツ)_/¯</p>
+    
+    <button type="button" onclick="myFunction()">не натискай на мене</button>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "ну і навішо? ";
+        }
+    </script>
+    
+    <h1>текст який я сюда написав</h1>
+    <p>&#128512;</p>
+    <p>&#128512;</p>
+   
+    <script>
+        document.write("нічого в мене не працює")
+    </script>
+    
+    <div id="myText"></div>
+    <script>
+        document.getElementById('myText').innerHTML = "нічого в мене не працює";
+        document.getElementById('myText').style.textAlign = 'center';
+    </script>
+    
+    <a href="https://youtu.be/dQw4w9WgXcQ?si=N7Juy6Gxj2cyO9k2">
+        <img width="500" height="400"  src="./img/clarkson.png" style="float: right">
+    </a>
+    <img width="300" height="300" src="./img/clarkson.png" style="float: left" alt="¯\_(ツ)_/¯" />
+   
+    <div class="image-container">
+        <a href="https://github.com/OKalichak/Lider">
+            <img width="800" height="600" src="./img/ld.png">
+        </a>
+    </div>
 
-    <img src="./img/clarkson.png" alt="¯\_(ツ)_/¯" />
-    <a href="https://github.com/OKalichak/Lider"><img src="./img/ld.png"></a>
-
-        <script src="allback"></script>
-
-        
+    <script src="allback"></script>
+</body>
 </html>
